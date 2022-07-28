@@ -1,2 +1,11 @@
-﻿<h1>Student List</h1>
+﻿@model IList<StudentModel>
+
+<h1>Student List</h1>
+
+@foreach(var student in Model)
+{
+    <a asp-action="Edit" asp-route-id="@student.Id">@student.FirstName @student.LastName</a>
+    <br/>
+}
+
 <a class="btn btn-primary" asp-action="Create">Create</a>

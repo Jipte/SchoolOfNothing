@@ -1,6 +1,6 @@
 ﻿using FluentMigrator;
 
-namespace SchoolOfNothing.Repository.Migrations
+namespace SchoolOfNothing.repository.Migrations
 {
     [Migration(1)]
     public class InitialMigration : Migration

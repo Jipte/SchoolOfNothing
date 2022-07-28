@@ -1,5 +1,6 @@
 using BuildingManager.Repository.IoC;
-using SchoolOfNothing.Repository.Infrastructure;
+using SchoolOfNothing.repository.Infrastructure;
+using SchoolOfNothing.repository.Repositories.StudentRepository;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -9,6 +10,8 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddTransient<IConnectionFactory,ConnectionFactory>();
 
 builder.Services.AddRepository(builder.Configuration);
+
+builder.Services.AddTransient<IStudentRepository,StudentRepository>();
 
 var app = builder.Build();
 

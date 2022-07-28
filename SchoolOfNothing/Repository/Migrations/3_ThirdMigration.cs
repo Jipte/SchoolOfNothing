@@ -1,6 +1,6 @@
 ﻿using FluentMigrator;
 
-namespace SchoolOfNothing.Repository.Migrations
+namespace SchoolOfNothing.repository.Migrations
 {
     [Migration(3)]
     public class ThirdMigration : Migration

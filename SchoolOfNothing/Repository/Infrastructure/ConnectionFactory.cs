@@ -3,7 +3,7 @@ using Microsoft.Extensions.Options;
 using Npgsql;
 using System.Data;
 
-namespace SchoolOfNothing.Repository.Infrastructure
+namespace SchoolOfNothing.repository.Infrastructure
 {
     public class ConnectionFactory:IConnectionFactory
     {

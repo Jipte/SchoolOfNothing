@@ -2,7 +2,7 @@
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Options;
-using SchoolOfNothing.Repository.Infrastructure;
+using SchoolOfNothing.repository.Infrastructure;
 
 namespace BuildingManager.Repository.IoC;
 

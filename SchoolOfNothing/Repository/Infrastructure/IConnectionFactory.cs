@@ -1,4 +1,4 @@
-﻿namespace SchoolOfNothing.Repository.Infrastructure
+﻿namespace SchoolOfNothing.repository.Infrastructure
 {
     public interface IConnectionFactory
     {
